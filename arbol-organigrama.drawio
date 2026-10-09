@@ -1,0 +1,63 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Organigrama empresarial" id="arbol-organigrama">
+    <mxGraphModel dx="1000" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="500" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <mxCell id="raiz" value="Empresa" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1f4e79;fontColor=#ffffff;strokeColor=#10304f;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="410" y="40" width="160" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="tec" value="Tecnología" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2e75b6;fontColor=#ffffff;strokeColor=#1f4e79;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="160" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fin" value="Finanzas" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2e75b6;fontColor=#ffffff;strokeColor=#1f4e79;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="160" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="th" value="Talento Humano" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#2e75b6;fontColor=#ffffff;strokeColor=#1f4e79;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="160" width="140" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="des" value="Desarrollo" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#deebf7;strokeColor=#2e75b6;" vertex="1" parent="1">
+          <mxGeometry x="40" y="290" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sop" value="Soporte" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#deebf7;strokeColor=#2e75b6;" vertex="1" parent="1">
+          <mxGeometry x="180" y="290" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="con" value="Contabilidad" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#deebf7;strokeColor=#2e75b6;" vertex="1" parent="1">
+          <mxGeometry x="360" y="290" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tes" value="Tesorería" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#deebf7;strokeColor=#2e75b6;" vertex="1" parent="1">
+          <mxGeometry x="500" y="290" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sel" value="Selección" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#deebf7;strokeColor=#2e75b6;" vertex="1" parent="1">
+          <mxGeometry x="680" y="290" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nom" value="Nómina" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#deebf7;strokeColor=#2e75b6;" vertex="1" parent="1">
+          <mxGeometry x="820" y="290" width="120" height="50" as="geometry" />
+        </mxCell>
+
+        <mxCell id="e1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;" edge="1" parent="1" source="raiz" target="tec"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;" edge="1" parent="1" source="raiz" target="fin"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;" edge="1" parent="1" source="raiz" target="th"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;" edge="1" parent="1" source="tec" target="des"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;" edge="1" parent="1" source="tec" target="sop"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;" edge="1" parent="1" source="fin" target="con"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;" edge="1" parent="1" source="fin" target="tes"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;" edge="1" parent="1" source="th" target="sel"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;" edge="1" parent="1" source="th" target="nom"><mxGeometry relative="1" as="geometry" /></mxCell>
+
+        <mxCell id="n1" value="Nivel 1 (raíz)" style="text;html=1;align=left;fontColor=#7f7f7f;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="600" y="55" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="n2" value="Nivel 2 (áreas)" style="text;html=1;align=left;fontColor=#7f7f7f;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="900" y="175" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="n3" value="Nivel 3 (subáreas / hojas)" style="text;html=1;align=left;fontColor=#7f7f7f;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="40" y="360" width="200" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
