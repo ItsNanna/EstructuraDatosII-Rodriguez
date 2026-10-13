@@ -26,7 +26,6 @@ public class Main {
         mostrar(raiz, 0);
     }
 
-    // Recorre el árbol e imprime cada nodo con sangría según su nivel
     public static void mostrar(NodoGeneral<String> nodo, int nivel) {
         String espacios = "";
         for (int i = 0; i < nivel; i++) {
