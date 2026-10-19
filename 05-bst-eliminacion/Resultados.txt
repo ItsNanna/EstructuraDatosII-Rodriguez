@@ -1,0 +1,92 @@
+=== CASO 1: ELIMINAR NODO HOJA ===
+Antes de eliminar 20:
+        80
+    70
+        60
+50
+        40
+    30
+        20
+Inorden antes: 20 30 40 50 60 70 80 
+
+Después de eliminar 20:
+        80
+    70
+        60
+50
+        40
+    30
+Inorden después: 30 40 50 60 70 80 
+¿20 existe? false
+¿BST válido? true
+Nodos: 6
+
+=== CASO 2: ELIMINAR NODO CON UN HIJO ===
+Antes de eliminar 60:
+        80
+    70
+            65
+        60
+50
+        40
+    30
+        20
+Inorden antes: 20 30 40 50 60 65 70 80 
+
+Después de eliminar 60:
+        80
+    70
+        65
+50
+        40
+    30
+        20
+Inorden después: 20 30 40 50 65 70 80 
+¿60 existe? false
+¿BST válido? true
+Nodos: 7
+
+Sucesor inorden de 50 = 60
+=== CASO 3: ELIMINAR NODO CON DOS HIJOS (RAIZ) ===
+Antes de eliminar 50:
+        80
+    70
+        60
+50
+        40
+    30
+        20
+Inorden antes: 20 30 40 50 60 70 80 
+
+Después de eliminar 50:
+        80
+    70
+60
+        40
+    30
+        20
+Inorden después: 20 30 40 60 70 80 
+¿50 existe? false
+¿BST válido? true
+Nodos: 6
+
+=== EXTRA 1: SUCESOR CON HIJO DERECHO ===
+        80
+    70
+            65
+        60
+50
+    30
+-- después de eliminar 50 --
+        80
+    70
+        65
+60
+    30
+Inorden: 30 60 65 70 80 
+¿BST válido? true
+
+=== EXTRA 2: ELIMINAR UN VALOR QUE NO EXISTE ===
+Nodos antes: 7
+Nodos después: 7
+¿BST válido? true

@@ -1,0 +1,13 @@
+digraph BST {
+  label="DESPUES de eliminar 50";
+  labelloc=t;
+  ordering=out;
+  node [shape=circle, style=filled, fillcolor="#cfe8ff"];
+  edge [fontsize=10];
+  60 [fillcolor="#ffb3b3"];
+  60 -> 30 [label="izq"];
+  30 -> 20 [label="izq"];
+  30 -> 40 [label="der"];
+  60 -> 70 [label="der"];
+  70 -> 80 [label="der"];
+}

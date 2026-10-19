@@ -1,0 +1,15 @@
+digraph BST {
+  label="ANTES: eliminar 60";
+  labelloc=t;
+  ordering=out;
+  node [shape=circle, style=filled, fillcolor="#cfe8ff"];
+  edge [fontsize=10];
+  60 [fillcolor="#ffb3b3"];
+  50 -> 30 [label="izq"];
+  30 -> 20 [label="izq"];
+  30 -> 40 [label="der"];
+  50 -> 70 [label="der"];
+  70 -> 60 [label="izq"];
+  60 -> 65 [label="der"];
+  70 -> 80 [label="der"];
+}
