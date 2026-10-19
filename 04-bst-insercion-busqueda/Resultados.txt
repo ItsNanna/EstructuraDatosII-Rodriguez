@@ -1,0 +1,65 @@
+=== BST DE 7 NODOS ===
+        80
+    70
+        60
+50
+        40
+    30
+        20
+
+Inorden: 20 30 40 50 60 70 80 
+
+Buscar 60 (existe):   encontrado=true, comparaciones=3, camino=50 -> 70 -> 60
+Buscar 65 (no existe): encontrado=false, comparaciones=3, camino=50 -> 70 -> 60 -> null
+
+=== INSERCIÓN ALEATORIA ===
+        950
+                890
+            840
+    780
+            700
+        610
+            520
+450
+            390
+        320
+                280
+            210
+                170
+    130
+        60
+Buscar 60 -> encontrado=true, comparaciones=3, camino=450 -> 130 -> 60
+Buscar 390 -> encontrado=true, comparaciones=4, camino=450 -> 130 -> 320 -> 390
+Buscar 700 -> encontrado=true, comparaciones=4, camino=450 -> 780 -> 610 -> 700
+Buscar 950 -> encontrado=true, comparaciones=3, camino=450 -> 780 -> 950
+Buscar 1000 -> encontrado=false, comparaciones=3, camino=450 -> 780 -> 950 -> null
+
+=== INSERCIÓN ORDENADA ===
+                                                        950
+                                                    890
+                                                840
+                                            780
+                                        700
+                                    610
+                                520
+                            450
+                        390
+                    320
+                280
+            210
+        170
+    130
+60
+Buscar 60 -> encontrado=true, comparaciones=1, camino=60
+Buscar 390 -> encontrado=true, comparaciones=7, camino=60 -> 130 -> 170 -> 210 -> 280 -> 320 -> 390
+Buscar 700 -> encontrado=true, comparaciones=11, camino=60 -> 130 -> 170 -> 210 -> 280 -> 320 -> 390 -> 450 -> 520 -> 610 -> 700
+Buscar 950 -> encontrado=true, comparaciones=15, camino=60 -> 130 -> 170 -> 210 -> 280 -> 320 -> 390 -> 450 -> 520 -> 610 -> 700 -> 780 -> 840 -> 890 -> 950
+Buscar 1000 -> encontrado=false, comparaciones=15, camino=60 -> 130 -> 170 -> 210 -> 280 -> 320 -> 390 -> 450 -> 520 -> 610 -> 700 -> 780 -> 840 -> 890 -> 950 -> null
+
+=== COMPARACIÓN ===
+Altura aleatorio: 4
+Altura ordenado:  14
+Comparaciones aleatorio: 17
+Comparaciones ordenado:  49
+Promedio aleatorio: 3.40
+Promedio ordenado:  9.80

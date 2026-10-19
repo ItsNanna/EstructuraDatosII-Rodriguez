@@ -1,0 +1,12 @@
+digraph BST {
+  label="BST de 7 nodos";
+  labelloc=t;
+  node [shape=circle, style=filled, fillcolor="#cfe8ff"];
+  edge [fontsize=10];
+  50 -> 30 [label="izq"];
+  30 -> 20 [label="izq"];
+  30 -> 40 [label="der"];
+  50 -> 70 [label="der"];
+  70 -> 60 [label="izq"];
+  70 -> 80 [label="der"];
+}

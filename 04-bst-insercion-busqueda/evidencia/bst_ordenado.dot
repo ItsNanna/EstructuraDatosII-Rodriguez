@@ -1,0 +1,20 @@
+digraph BST {
+  label="Insercion ordenada";
+  labelloc=t;
+  node [shape=circle, style=filled, fillcolor="#cfe8ff"];
+  edge [fontsize=10];
+  60 -> 130 [label="der"];
+  130 -> 170 [label="der"];
+  170 -> 210 [label="der"];
+  210 -> 280 [label="der"];
+  280 -> 320 [label="der"];
+  320 -> 390 [label="der"];
+  390 -> 450 [label="der"];
+  450 -> 520 [label="der"];
+  520 -> 610 [label="der"];
+  610 -> 700 [label="der"];
+  700 -> 780 [label="der"];
+  780 -> 840 [label="der"];
+  840 -> 890 [label="der"];
+  890 -> 950 [label="der"];
+}
