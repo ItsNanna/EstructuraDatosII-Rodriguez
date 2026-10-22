@@ -1,0 +1,21 @@
+digraph BST {
+  label="Catalogo - insercion aleatoria";
+  labelloc=t;
+  ordering=out;
+  node [shape=circle, style=filled, fillcolor="#cfe8ff"];
+  edge [fontsize=10];
+  1148 -> 1042 [label="izq"];
+  1042 -> 1015 [label="izq"];
+  1015 -> 1002 [label="izq"];
+  1015 -> 1033 [label="der"];
+  1042 -> 1090 [label="der"];
+  1090 -> 1077 [label="izq"];
+  1090 -> 1120 [label="der"];
+  1120 -> 1108 [label="izq"];
+  1148 -> 1255 [label="der"];
+  1255 -> 1190 [label="izq"];
+  1190 -> 1230 [label="der"];
+  1230 -> 1210 [label="izq"];
+  1255 -> 1301 [label="der"];
+  1301 -> 1275 [label="izq"];
+}

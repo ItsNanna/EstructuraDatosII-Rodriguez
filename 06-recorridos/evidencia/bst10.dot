@@ -1,0 +1,16 @@
+digraph BST {
+  label="BST de 10 codigos de productos";
+  labelloc=t;
+  ordering=out;
+  node [shape=circle, style=filled, fillcolor="#cfe8ff"];
+  edge [fontsize=10];
+  450 -> 220 [label="izq"];
+  220 -> 130 [label="izq"];
+  130 -> 60 [label="izq"];
+  220 -> 340 [label="der"];
+  340 -> 270 [label="izq"];
+  450 -> 710 [label="der"];
+  710 -> 590 [label="izq"];
+  590 -> 650 [label="der"];
+  710 -> 880 [label="der"];
+}

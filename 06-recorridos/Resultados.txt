@@ -1,0 +1,44 @@
+=== PRUEBA 1: BST DE 7 NODOS ===
+        80
+    70
+        60
+50
+        40
+    30
+        20
+Preorden    (raíz, izq, der): [50, 30, 20, 40, 70, 60, 80]
+Inorden     (izq, raíz, der): [20, 30, 40, 50, 60, 70, 80]
+Postorden   (izq, der, raíz): [20, 40, 30, 60, 80, 70, 50]
+Por niveles (con Queue):      [50, 30, 70, 20, 40, 60, 80]
+
+=== PRUEBA 2: 10 CÓDIGOS DE PRODUCTOS ===
+Orden de inserción: 450 710 220 590 130 880 340 60 650 270 
+
+        880
+    710
+            650
+        590
+450
+        340
+            270
+    220
+        130
+            60
+Preorden    (raíz, izq, der): [450, 220, 130, 60, 340, 270, 710, 590, 650, 880]
+Inorden     (izq, raíz, der): [60, 130, 220, 270, 340, 450, 590, 650, 710, 880]
+Postorden   (izq, der, raíz): [60, 130, 270, 340, 220, 650, 590, 880, 710, 450]
+Por niveles (con Queue):      [450, 220, 710, 130, 340, 590, 880, 60, 270, 650]
+
+Lista ordenada:   [60, 130, 220, 270, 340, 450, 590, 650, 710, 880]
+Inorden del BST:  [60, 130, 220, 270, 340, 450, 590, 650, 710, 880]
+¿Son iguales? true
+
+=== PRUEBA 3: ÁRBOL VACÍO ===
+Preorden:   []
+Inorden:    []
+Postorden:  []
+Por niveles: []
+
+=== ELIMINAR EL ÁRBOL COMPLETO (POSTORDEN) ===
+elimino 20  elimino 40  elimino 30  elimino 60  elimino 80  elimino 70  elimino 50  
+¿Árbol vacío? true

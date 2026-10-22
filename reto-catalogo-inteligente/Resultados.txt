@@ -1,0 +1,78 @@
+=== CATALOGO INTELIGENTE ===
+Orden aleatorio de insercion: 1148 1042 1255 1090 1190 1015 1301 1120 1033 1230 1077 1210 1002 1275 1108 
+Orden ascendente de insercion: 1002 1015 1033 1042 1077 1090 1108 1120 1148 1190 1210 1230 1255 1275 1301 
+
+=== BST ALEATORIO ===
+        1301
+            1275
+    1255
+            1230
+                1210
+        1190
+1148
+            1120
+                1108
+        1090
+            1077
+    1042
+            1033
+        1015
+            1002
+Altura: 4
+
+=== BST ORDENADO ===
+                                                        1301
+                                                    1275
+                                                1255
+                                            1230
+                                        1210
+                                    1190
+                                1148
+                            1120
+                        1108
+                    1090
+                1077
+            1042
+        1033
+    1015
+1002
+Altura: 14
+
+=== BUSQUEDAS EN BST ALEATORIO ===
+Buscar 1002 -> encontrado=true, comparaciones=4, camino=1148 -> 1042 -> 1015 -> 1002  [Mousepad]
+Buscar 1120 -> encontrado=true, comparaciones=4, camino=1148 -> 1042 -> 1090 -> 1120  [Cargador USB-C]
+Buscar 1230 -> encontrado=true, comparaciones=4, camino=1148 -> 1255 -> 1190 -> 1230  [Monitor 24 pulg]
+Buscar 1301 -> encontrado=true, comparaciones=3, camino=1148 -> 1255 -> 1301  [Impresora laser]
+Buscar 1200 -> encontrado=false, comparaciones=5, camino=1148 -> 1255 -> 1190 -> 1230 -> 1210 -> null
+
+=== BUSQUEDAS EN BST ORDENADO ===
+Buscar 1002 -> encontrado=true, comparaciones=1, camino=1002  [Mousepad]
+Buscar 1120 -> encontrado=true, comparaciones=8, camino=1002 -> 1015 -> 1033 -> 1042 -> 1077 -> 1090 -> 1108 -> 1120  [Cargador USB-C]
+Buscar 1230 -> encontrado=true, comparaciones=12, camino=1002 -> 1015 -> 1033 -> 1042 -> 1077 -> 1090 -> 1108 -> 1120 -> 1148 -> 1190 -> 1210 -> 1230  [Monitor 24 pulg]
+Buscar 1301 -> encontrado=true, comparaciones=15, camino=1002 -> 1015 -> 1033 -> 1042 -> 1077 -> 1090 -> 1108 -> 1120 -> 1148 -> 1190 -> 1210 -> 1230 -> 1255 -> 1275 -> 1301  [Impresora laser]
+Buscar 1200 -> encontrado=false, comparaciones=11, camino=1002 -> 1015 -> 1033 -> 1042 -> 1077 -> 1090 -> 1108 -> 1120 -> 1148 -> 1190 -> 1210 -> null
+
+=== TABLA COMPARATIVA ===
+Escenario   | Productos | Altura | Comparaciones (5 busquedas) | Promedio
+Aleatorio   |        15 |      4 |                          20 | 4.00
+Ordenado    |        15 |     14 |                          47 | 9.40
+
+=== PRUEBA: CODIGO REPETIDO ===
+¿Se insertó el código 1042 otra vez? false
+
+=== CATALOGO ORDENADO POR CODIGO ===
+1002 - Mousepad - $15000
+1015 - Teclado mecanico - $135000
+1033 - Audifonos - $85000
+1042 - Mouse inalambrico - $45000
+1077 - Memoria USB 64GB - $38000
+1090 - Hub USB - $35000
+1108 - Webcam HD - $120000
+1120 - Cargador USB-C - $60000
+1148 - Cable HDMI - $18000
+1190 - Disco SSD 500GB - $220000
+1210 - Parlante Bluetooth - $120000
+1230 - Monitor 24 pulg - $780000
+1255 - Router WiFi 6 - $190000
+1275 - Tablet 10 pulg - $1250000
+1301 - Impresora laser - $690000

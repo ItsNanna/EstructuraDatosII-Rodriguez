@@ -1,0 +1,9 @@
+Arbol,Recorrido,Secuencia
+7 nodos,Preorden,"50 30 20 40 70 60 80"
+7 nodos,Inorden,"20 30 40 50 60 70 80"
+7 nodos,Postorden,"20 40 30 60 80 70 50"
+7 nodos,Por niveles,"50 30 70 20 40 60 80"
+10 codigos,Preorden,"450 220 130 60 340 270 710 590 650 880"
+10 codigos,Inorden,"60 130 220 270 340 450 590 650 710 880"
+10 codigos,Postorden,"60 130 270 340 220 650 590 880 710 450"
+10 codigos,Por niveles,"450 220 710 130 340 590 880 60 270 650"
