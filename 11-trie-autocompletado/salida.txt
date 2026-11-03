@@ -1,0 +1,18 @@
+Palabras cargadas: 38
+
+--- Pruebas de buscar y empiezaCon ---
+buscar(nodo): true
+buscar(pro): false
+buscar(casa): false
+empiezaCon(prog): true
+empiezaCon(zz): false
+
+--- Sugerencias (maximo 5) ---
+pro -> [procesador, proceso, producto, programa, programacion]
+est -> [estado, estandar, estrategia, estructura, estudiante]
+ar -> [arbol, archivo, arreglo]
+co -> [codigo, cola, compilador, consulta]
+di -> [diccionario, directorio, diseno]
+xyz -> []
+
+Escribe un prefijo (o 'salir'):
